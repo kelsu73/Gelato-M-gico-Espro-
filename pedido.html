@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fazer Pedido - Sorvete Tropical</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1 class="gradient-text"><i class="fa-solid fa-ice-cream"></i> Sorvete Tropical</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sabores.html">Sabores</a></li>
+        <li><a href="pedido.html">Fazer Pedido</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+  </header>
+
+  <!-- FORMULÁRIO DE PEDIDO -->
+  <section class="pedido">
+    <h2 class="section-title gradient-text">Monte seu Pedido</h2>
+    <form id="formPedido">
+      <label for="SABOR SORVETE">Escolha o sabor do sorvete:</label>
+      <select id="sabor" required>
+        <option value="">Selecione</option>
+        <option value="Sorvete Banana">Sorvete Banana</option>
+        <option value="Sorvete de Biscoito">Sorvete de Biscoito</option>
+        <option value="Sorvete de Baunilha">Sorvete de Baunilha</option>
+        <option value="Sorvete de Chiclete">Sorvete de Chiclete</option>
+        <option value="Sorvete de Chocolate">Sorvete de Chocolate</option>
+        <option value="Sorvete de Coco">Sorvete de Coco</option>
+        <option value="Sorvete de Leite Condensado">Sorvete de Leite Condensado</option>
+        <option value="Sorvete de Limão">Sorvete de Limão</option>
+        <option value="Sorvete de Manga">Sorvete de Manga</option>
+        <option value="Sorvete de Morango">Sorvete de Morango</option>
+        <option value="Sorvete Napolitano">Sorvete Napolitano</option>
+        <option value="Sorvete de Pistache">Sorvete de Pistache</option>
+      </select>
+
+       <label for="SABOR SORVETE">Escolha o sabor do picolé:</label>
+      <select id="sabor" required>
+        <option value="">Selecione</option>
+        <option value="Picolé Banana">Picolé Banana</option>
+        <option value="Picolé de Biscoito">Picolé de Biscoito</option>
+        <option value="Picolé de Baunilha">Picolé de Baunilha</option>
+        <option value="Picolé de Chiclete">Picolé de Chiclete</option>
+        <option value="Picolé de Chocolate">Picolé de Chocolate</option>
+        <option value="Picolé de Coco">Picolé de Coco</option>
+        <option value="Picolé de Leite Condensado">Picolé de Leite Condensado</option>
+        <option value="Picolé de Limão">Picolé de Limão</option>
+        <option value="Picolé de Manga">Picolé de Manga</option>
+        <option value="Picolé de Morango">Picolé de Morango</option>
+        <option value="Picolé Napolitano">Picolé Napolitano</option>
+        <option value="Picolé de Pistache">Picolé de Pistache</option>
+      </select>
+
+
+
+      <label for="tamanho">Tamanho:</label>
+      <select id="tamanho" required>
+        <option value="">Selecione</option>
+        <option value="Pequeno">Pequeno Baby 250ml</option>
+        <option value="Pequeno">Pequeno 350</option>
+        <option value="Médio">Médio 500ml </option>
+        <option value="Grande">Grande 750ml</option>
+        <option value="Grande">Litro 1L</option>
+      </select>
+
+<h3 class="pedidoh3">Vai um complemento ai?</h3>
+      <label>Complementos:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" value="Granola"> Granola</label>
+        <label><input type="checkbox" value="Leite Condensado"> Leite Condensado</label>
+        <label><input type="checkbox" value="Nutella"> Pedaços de brownie</label>
+        <label><input type="checkbox" value="Frutas"> Confetes coloridos</label>
+        <label><input type="checkbox" value="Frutas"> Gotas de chocolate</label>
+        <label><input type="checkbox" value="Frutas"> Marshmallows</label>
+        <label><input type="checkbox" value="Frutas"> Biscoito Oreo picado</label>
+        <label><input type="checkbox" value="Frutas"> Granulado de chocolate</label>
+        <label><input type="checkbox" value="Frutas"> Chocoball</label>
+        <label><input type="checkbox" value="Frutas"> Castanha do Pará em pedaços</label>
+        <label><input type="checkbox" value="Frutas"> Cupuaçu</label>
+      </div>
+
+      <h3 class="pedidoh3">Vai uma cobertura ai?</h3>
+
+       <label>Cobertura:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" value="Granola"> Cobertura de Chocolate</label>
+        <label><input type="checkbox" value="Leite Condensado"> Cobertura de Morango</label>
+        <label><input type="checkbox" value="Nutella"> Cobertura de Caramelo </label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Kiwi</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Flocos</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Manga</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Maracuja</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Amora</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Tuti Fruti</label>
+        <label><input type="checkbox" value="Frutas"> Cobertura de Laranja</label>
+        <label><input type="checkbox" value="Frutas"> Mel</label>
+      </div>
+
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" required placeholder="Digite seu nome">
+
+      <label for="endereco">Endereço de entrega:</label>
+      <textarea id="endereco" rows="3" required placeholder="Rua, número, bairro"></textarea>
+
+      <button type="submit" class="btn-primary">Enviar Pedido </button>
+      
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Sorvete Tropical. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
